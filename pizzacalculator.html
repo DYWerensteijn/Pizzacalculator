@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Welkom bij domino's");
+		var smallprice = 5;
+		var mediumprice = 10;
+		var largeprice = 15;
+
+var small = prompt("Hoe veel kleine pizza's wilt u? (€5 per stuk) ");
+var medium = prompt("Hoe veel medium pizza's wilt u? (€10 per stuk)");
+var large = prompt("Hoe veel Large pizza's wilt u? (€15 per stuk)");
+
+var totalsmall = smallprice * small;
+var totalmedium = mediumprice * medium;
+var totallarge = largeprice * large;
+
+var totalprice = totalsmall + totalmedium + totallarge;
+
+alert("Het totaalbedrag is " + totalprice + " euro" );
+ 	
+document.write("U heeft besteld: <br/>"
+ + small + " kleine pizza('s) <br/>"
+  + medium + " medium pizza('s) <br/>"
+   + large + " large pizza('s) <br/>"
+  + "Totaalbedrag: €" + totalprice);
+
+	</script>
+
+</body>
+</html>
